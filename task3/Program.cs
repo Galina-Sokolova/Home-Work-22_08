@@ -24,4 +24,7 @@ switch (input)
     case 7:
     Console.Write("УРА, воскресенье - ВЫХОДНОЙ");
     break;
+    default:
+    Console.Write("дня недели с таким номером нет");
+    break;
 }
